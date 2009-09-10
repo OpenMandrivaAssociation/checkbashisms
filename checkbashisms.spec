@@ -1,6 +1,6 @@
 %define name checkbashisms
 %define version 2.10.39
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Check shell scripts for common bash-specific contructs
 Name: %{name}
