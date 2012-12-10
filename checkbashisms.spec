@@ -40,3 +40,19 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/%{name}.pl
 %{_mandir}/man1/%{name}.1*
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.10.39-3mdv2011.0
++ Revision: 616996
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 2.10.39-2mdv2010.0
++ Revision: 436991
+- rebuild
+
+* Mon Oct 13 2008 Olivier Blin <oblin@mandriva.com> 2.10.39-1mdv2009.1
++ Revision: 293329
+- initial package (extracted from Debian devscripts package)
+- create checkbashisms
+
