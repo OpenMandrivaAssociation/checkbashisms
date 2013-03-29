@@ -1,7 +1,7 @@
 Summary:	Check shell scripts for common bash-specific contructs
 Name:		checkbashisms
 Version:	1.10.39
-Release:	4
+Release:	5
 # svn export svn://svn.debian.org/svn/devscripts/trunk/scripts/checkbashisms.pl
 Source0:	checkbashisms.pl
 # svn export svn://svn.debian.org/svn/devscripts/trunk/scripts/checkbashisms.1
