@@ -1,2 +1,4 @@
 ---
-sources: {}
+sources:
+  checkbashisms: f94d1bab82481df3c30de87a76a57235763d1f84
+  checkbashisms.1: 2aa9b67467afc7416fda2fd27dd9788073bbe779
