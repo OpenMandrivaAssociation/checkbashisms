@@ -1,20 +1,18 @@
 Summary:	Check shell scripts for common bash-specific contructs
 Name:		checkbashisms
-Version:	1.10.39
-Release:	5
-# svn export svn://svn.debian.org/svn/devscripts/trunk/scripts/checkbashisms.pl
-Source0:	checkbashisms.pl
+Version:	2.0.0.2
+Release:	1
+Url:		http://sourceforge.net/projects/checkbaskisms/
+Source0:	http://downloads.sourceforge.net/project/checkbaskisms/%{version}/%{name}
 # svn export svn://svn.debian.org/svn/devscripts/trunk/scripts/checkbashisms.1
 Source1:	checkbashisms.1
 License:	GPLv2+
 Group:		Development/Other
-Url:		http://packages.debian.org/sid/devscripts
 BuildArch:	noarch
 
 %description
-checkbashisms checks whether a /bin/sh script contains any common
-bash-specific contructs.
-It is extracted from the Debian devscripts package.
+Performs basic checks on shell scripts for 
+the presence of non portable syntax.
 
 %prep
 %setup -q -T -c
