@@ -1,6 +1,7 @@
 Summary:	Check shell scripts for common bash-specific contructs
 Name:		checkbashisms
 Version:	2.0.0.2
+Epoch:		1
 Release:	1
 Url:		http://sourceforge.net/projects/checkbaskisms/
 Source0:	http://downloads.sourceforge.net/project/checkbaskisms/%{version}/%{name}
