@@ -3,7 +3,7 @@ Name:		checkbashisms
 Version:	2.23.7
 Epoch:		1
 Release:	1
-Url:		http://sourceforge.net/projects/checkbaskisms/
+Url:		https://sourceforge.net/projects/checkbaskisms/
 Source0:	http://downloads.sourceforge.net/project/checkbaskisms/%{version}/%{name}
 # svn export svn://svn.debian.org/svn/devscripts/trunk/scripts/checkbashisms.1
 Source1:	checkbashisms.1
